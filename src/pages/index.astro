@@ -1,16 +1,11 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
+import List from "../components/ui/List.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout
+  title="Elvin González - JS Practice Repository"
+  description="Here you will find a list of all my internships to date that have taught me more about the JavaScript language."
+>
+  <List />
+</Layout>
